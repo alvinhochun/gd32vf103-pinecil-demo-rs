@@ -1,0 +1,10 @@
+[package]
+name = "demo-04-uart-loop-pac"
+version = "0.1.0"
+authors = ["Alvin Wong <alvinhochun@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+gd32vf103-pac = "0.4"
+panic-halt = "0.2.0"
+riscv-rt = "0.8"

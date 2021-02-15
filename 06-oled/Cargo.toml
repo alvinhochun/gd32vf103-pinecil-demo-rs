@@ -1,0 +1,19 @@
+[package]
+name = "demo-06-oled"
+version = "0.1.0"
+authors = ["Alvin Wong <alvinhochun@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+embedded-graphics = "0.6.2"
+embedded-hal = "0.2.4"
+gd32vf103-pac = "0.4"
+gd32vf103xx-hal = "0.4"
+nb = "1.0"
+panic-halt = "0.2.0"
+riscv-rt = "0.8"
+# Use git dependency due to https://github.com/jamwaffles/ssd1306/pull/145 and
+# https://github.com/jamwaffles/ssd1306/pull/147, and to allow custom brightness
+# ssd1306 = { version = "0.5.1", git = "https://github.com/jamwaffles/ssd1306.git", rev = "23bd9b0" }
+ssd1306 = { version = "0.5.1", git = "https://github.com/alvinhochun/ssd1306.git", branch = "custom" }
+# ssd1306 = "0.5.1"

@@ -1,0 +1,9 @@
+[package]
+name = "demo-00-blinky-raw-pointer"
+version = "0.1.0"
+authors = ["Alvin Wong <alvinhochun@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+panic-halt = "0.2.0"
+riscv-rt = "0.8"

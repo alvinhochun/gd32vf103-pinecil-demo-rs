@@ -1,0 +1,20 @@
+[workspace]
+members = [
+    "00-blinky-raw-pointer",
+    "01-blinky-pac",
+    "02-blinky-hal",
+    "03-button-loop-blinky-hal",
+    "04-uart-loop-pac",
+    "05-uart-loop-hal",
+    "06-oled",
+]
+
+[profile.dev]
+codegen-units = 1
+incremental = false
+
+[profile.release]
+codegen-units = 1
+debug = true
+lto = true
+opt-level = "s"
