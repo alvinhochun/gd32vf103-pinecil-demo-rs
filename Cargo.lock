@@ -376,7 +376,7 @@ checksum = "388a1df253eca08550bef6c72392cfe7c30914bf41df5269b68cbd6ff8f570a3"
 [[package]]
 name = "ssd1306"
 version = "0.5.1"
-source = "git+https://github.com/alvinhochun/ssd1306.git?branch=custom#4aec1357599e9db20998193ae3f33c1218af2a73"
+source = "git+https://github.com/alvinhochun/ssd1306.git?branch=custom#b6b4dce9b8836556539120cb55fc271093fd815e"
 dependencies = [
  "display-interface",
  "display-interface-i2c",
