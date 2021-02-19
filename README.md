@@ -46,9 +46,9 @@ such a tool.
   TX pin of your device to the RX pin of the Pinecil directly, as the RX pin on
   the Pinecil is not 5V-tolerant. You can use a resistor voltage divider to
   convert the voltage level.
-- It may be nice to have a debugging setup using a JTAG debugger, however I have
-  not tried one myself. If you use a JTAG, you probably also want OpenOCD and
-  GDB.
+- It may be nice to have a debugging setup using a JTAG debugger. If you use a
+  JTAG, you probably also want OpenOCD and GDB. (Also check out [my notes on
+  connecting JTAG](./notes/01-JTAG.md).)
 - An LED and a current-limiting resistor can be used to provide a binary
   output, as a simple indicator, or just to get started with a simple blinking
   LED demo.
