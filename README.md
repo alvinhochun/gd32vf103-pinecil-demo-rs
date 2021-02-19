@@ -78,6 +78,9 @@ The resulting `firmware.bin` can be flashed with `dfu-util` or the
 "GD32 Dfu Tool". The official [firmware updater][updater] is also capable of
 flashing the file, since it uses `dfu-util` under the hood.
 
+In the folder of each demo there is a readme file which provides some
+background information and special instructions.
+
 [updater]: https://github.com/pine64/pinecil-firmware-updater
 
 
