@@ -7,6 +7,7 @@ members = [
     "04-uart-loop-pac",
     "05-uart-loop-hal",
     "06-oled",
+    "07-bma223",
 ]
 
 [profile.dev]

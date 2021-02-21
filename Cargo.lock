@@ -118,6 +118,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "demo-07-bma223"
+version = "0.1.0"
+dependencies = [
+ "embedded-hal",
+ "gd32vf103-pac",
+ "gd32vf103xx-hal",
+ "nb 1.0.0",
+ "panic-halt",
+ "riscv-rt",
+]
+
+[[package]]
 name = "display-interface"
 version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
